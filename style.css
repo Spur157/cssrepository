@@ -46,7 +46,7 @@
 /* zde je ukazano, jak funguje box model */
 
 .container {
-    background-color: rgb(179, 179, 179);
+    background-color: rgb(206, 58, 58);
 }
 
 .pruh{
@@ -57,7 +57,16 @@
 .box {
     background-color: brown;
     border: 5px solid black;
+    margin-top: 20px;
+  margin-bottom: 25px;
+  margin-right: 50px; 
+  margin-left: 100px;
+  padding: 12px;
 }
-
-
+ul{
+  list-style-type: none;
+}
+li{
+  display: inline;
+}
 /* zde je vytvoreno navigacni menu */
